@@ -19,3 +19,8 @@ dvc init
 
 dvc add/data_given/data.csv
 
+git add .
+
+git commit -m "first commit"
+
+
