@@ -4,14 +4,14 @@ base:
   target_col: TARGET
 
 data_source:
-  s3_source: data/data_given/data.csv
+  s3_source: data_given\data.csv
 load_data:
-  raw_dataset_csv: data/raw/data.csv
+  raw_dataset_csv: data\raw\data.csv
 
 split_data:
-  train_path: data/preprocessed/train.csv
-  test_path: data/preprocessed/test.csv
-  test_size:0.2
+  train_path: data\preprocessed\train.csv
+  test_path: data\preprocessed\test.csv
+  test_size: 0.2
 estimators:
   LogisticRegression:
     params:
