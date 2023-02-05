@@ -23,4 +23,8 @@ git add .
 
 git commit -m "first commit"
 
+oneliner updates for readme file
+git add . && git commit -m "update readme.md"
+
+
 
